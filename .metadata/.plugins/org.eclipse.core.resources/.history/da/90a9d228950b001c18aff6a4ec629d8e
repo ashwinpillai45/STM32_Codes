@@ -1,0 +1,29 @@
+/*
+ * main.c
+ *
+ *  Created on: Sep 1, 2021
+ *      Author: root
+ */
+
+#include "main.h"
+
+void SystemClockConfig(void);
+void UART2_Init(void);
+
+UART_HandleTypeDef huart2; //Defining a handle variable
+
+int main(void)
+{
+HAL_Init();
+SystemClockConfig();
+UART2_Init();
+return 0;
+}
+
+void SystemClockConfig(void)
+{}
+
+void UART2_Init(void)
+{
+	huart2.Instance = ;
+}

@@ -1,0 +1,6 @@
+21:29:58 **** Incremental Build of configuration Release for project pll180 ****
+make -j4 all 
+make: Nothing to be done for 'all'.
+
+21:29:58 Build Finished (took 130ms)
+

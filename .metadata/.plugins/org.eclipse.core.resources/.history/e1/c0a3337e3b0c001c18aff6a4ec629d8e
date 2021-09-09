@@ -1,0 +1,43 @@
+/*
+ * main.c
+ *
+ *  Created on: Sep 1, 2021
+ *      Author: root
+ */
+
+#include "main.h"
+
+void SystemClockConfig(void);
+void UART2_Init(void);
+void errorHandler(void);
+
+UART_HandleTypeDef huart2; //Defining a handle variable
+
+int main(void)
+{
+HAL_Init();
+SystemClockConfig();
+UART2_Init();
+return 0;
+}
+
+void SystemClockConfig(void)
+{}
+
+void UART2_Init(void)
+{
+	huart2.Instance = USART2;						//Linking handler to the peripheral
+	huart2.Init.BaudRate = 115200;					//Setting up parameters
+	huart2.Init.WordLength = UART_WORDLENGTH_8B;
+	huart2.Init.StopBits = UART_STOPBITS_1;
+	huart2.Init.Parity = UART_PARITY_NONE;
+	huart2.Init.HwFlowCtl = UART_HWCONTROL_NONE;
+	huart2.Init.Mode = UART_MODE_TX_RX;
+	if((HAL_UART_Init(&huart2))!= HAL_OK)
+		errorHandler();
+}
+
+void errorHandler(void)
+{
+while(1);
+}

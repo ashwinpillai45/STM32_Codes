@@ -1,0 +1,5 @@
+1630509528104	Delete resource 'uart2_ex/Core/Src/main.c'
+1630509536963	Delete resource 'uart2_ex/Core/Src/stm32f4xx_hal_msp.c'
+1630509542423	Delete resource 'uart2_ex/Core/Src/stm32f4xx_it.c'
+1630509548932	Delete resource 'uart2_ex/Core/Inc/stm32f4xx_it.h'
+1630509557002	Delete resource 'uart2_ex/Core/Inc/main.h'

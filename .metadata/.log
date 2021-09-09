@@ -1,0 +1,369 @@
+!SESSION 2021-08-30 17:40:46.433 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_151
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_CA
+Framework arguments:  -pluginCustomization configuration/st_pref.ini -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -pluginCustomization configuration/st_pref.ini -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 17 2021-08-30 17:41:49.999
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1. ; version: 2.0.4.v20170307-1435
+!STACK 0
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.json.Json.deserialize(Json.java:93)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:70)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:124)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+	... 9 more
+
+!ENTRY org.eclipse.core.net 1 0 2021-08-30 17:41:50.209
+!MESSAGE System property http.proxyHost is not set but should be appgw.gnb.st.com.
+
+!ENTRY org.eclipse.core.net 1 0 2021-08-30 17:41:50.210
+!MESSAGE System property http.proxyPort is not set but should be 8080.
+
+!ENTRY org.eclipse.core.net 1 0 2021-08-30 17:41:50.253
+!MESSAGE System property http.proxyHost is not set but should be appgw.gnb.st.com.
+
+!ENTRY org.eclipse.core.net 1 0 2021-08-30 17:41:50.254
+!MESSAGE System property http.proxyPort is not set but should be 8080.
+
+!ENTRY fr.ac6.mcu.ide 1 1 2021-08-30 17:41:58.432
+!MESSAGE Started RMI Server, listening on port 21112
+!SESSION 2021-08-31 19:52:35.461 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_151
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_CA
+Framework arguments:  -pluginCustomization configuration/st_pref.ini -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -pluginCustomization configuration/st_pref.ini -product org.eclipse.epp.package.cpp.product
+
+!ENTRY fr.ac6.mcu.ide 1 1 2021-08-31 19:53:14.438
+!MESSAGE Started RMI Server, listening on port 21112
+
+!ENTRY org.eclipse.core.net 1 0 2021-08-31 19:53:16.479
+!MESSAGE System property http.proxyHost is not set but should be appgw.gnb.st.com.
+
+!ENTRY org.eclipse.core.net 1 0 2021-08-31 19:53:16.481
+!MESSAGE System property http.proxyPort is not set but should be 8080.
+
+!ENTRY org.eclipse.core.net 1 0 2021-08-31 19:53:16.531
+!MESSAGE System property http.proxyHost is not set but should be appgw.gnb.st.com.
+
+!ENTRY org.eclipse.core.net 1 0 2021-08-31 19:53:16.532
+!MESSAGE System property http.proxyPort is not set but should be 8080.
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 17 2021-08-31 19:53:16.928
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1. ; version: 2.0.4.v20170307-1435
+!STACK 0
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.json.Json.deserialize(Json.java:93)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:70)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:124)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+	... 9 more
+!SESSION 2021-08-31 22:19:03.223 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_151
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_CA
+Framework arguments:  -pluginCustomization configuration/st_pref.ini -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -pluginCustomization configuration/st_pref.ini -product org.eclipse.epp.package.cpp.product
+
+!ENTRY fr.ac6.mcu.ide 1 1 2021-08-31 22:19:32.233
+!MESSAGE Started RMI Server, listening on port 21112
+
+!ENTRY org.eclipse.core.net 1 0 2021-08-31 22:19:34.457
+!MESSAGE System property http.proxyHost is not set but should be appgw.gnb.st.com.
+
+!ENTRY org.eclipse.core.net 1 0 2021-08-31 22:19:34.467
+!MESSAGE System property http.proxyPort is not set but should be 8080.
+
+!ENTRY org.eclipse.core.net 1 0 2021-08-31 22:19:34.549
+!MESSAGE System property http.proxyHost is not set but should be appgw.gnb.st.com.
+
+!ENTRY org.eclipse.core.net 1 0 2021-08-31 22:19:34.550
+!MESSAGE System property http.proxyPort is not set but should be 8080.
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 17 2021-08-31 22:19:34.742
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1. ; version: 2.0.4.v20170307-1435
+!STACK 0
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.json.Json.deserialize(Json.java:93)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:70)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:124)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+	... 9 more
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-08-31 22:20:20.159
+!MESSAGE Indexed 'uart2_ex' (21 sources, 81 headers) in 5.08 sec: 4,392 declarations; 21,858 references; 0 unresolved inclusions; 1 syntax errors; 0 unresolved names (0%)
+!SESSION 2021-09-01 11:07:25.880 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_151
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_CA
+Framework arguments:  -pluginCustomization configuration/st_pref.ini -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -pluginCustomization configuration/st_pref.ini -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2021-09-01 11:07:38.168
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY fr.ac6.mcu.ide 1 1 2021-09-01 11:08:00.720
+!MESSAGE Started RMI Server, listening on port 21112
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 17 2021-09-01 11:08:02.204
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1. ; version: 2.0.4.v20170307-1435
+!STACK 0
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.json.Json.deserialize(Json.java:93)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:70)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:124)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+	... 9 more
+
+!ENTRY org.eclipse.core.net 1 0 2021-09-01 11:08:04.107
+!MESSAGE System property http.proxyHost is not set but should be appgw.gnb.st.com.
+
+!ENTRY org.eclipse.core.net 1 0 2021-09-01 11:08:04.108
+!MESSAGE System property http.proxyPort is not set but should be 8080.
+
+!ENTRY org.eclipse.core.net 1 0 2021-09-01 11:08:04.200
+!MESSAGE System property http.proxyHost is not set but should be appgw.gnb.st.com.
+
+!ENTRY org.eclipse.core.net 1 0 2021-09-01 11:08:04.201
+!MESSAGE System property http.proxyPort is not set but should be 8080.
+
+!ENTRY org.eclipse.launchbar.core 2 0 2021-09-02 18:46:38.799
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2021-09-02 18:46:38.827
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2021-09-02 19:01:41.382
+!MESSAGE gnu.io.PortInUseException:  root PID =  13748 Program = minicom
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException:  root PID =  13748 Program = minicom
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException:  root PID =  13748 Program = minicom
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY fr.ac6.mcu.debug 4 0 2021-09-02 19:04:38.988
+!MESSAGE Input/output error in nativeDrain
+!STACK 0
+java.io.IOException: Input/output error in nativeDrain
+	at gnu.io.RXTXPort.nativeDrain(Native Method)
+	at gnu.io.RXTXPort$SerialOutputStream.flush(RXTXPort.java:1240)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialWriter.sendCommand(SerialConsoleManager.java:591)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialWriter.resendCommand(SerialConsoleManager.java:581)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialReader.waitForOuptut(SerialConsoleManager.java:512)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialReader.run(SerialConsoleManager.java:457)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY fr.ac6.mcu.debug 4 0 2021-09-02 19:04:39.086
+!MESSAGE Input/output error in nativeavailable
+!STACK 0
+java.io.IOException: Input/output error in nativeavailable
+	at gnu.io.RXTXPort.nativeavailable(Native Method)
+	at gnu.io.RXTXPort$SerialInputStream.available(RXTXPort.java:1568)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialReader.waitForOuptut(SerialConsoleManager.java:500)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialReader.run(SerialConsoleManager.java:457)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-09-02 22:54:13.778
+!MESSAGE Indexed 'uart2_ex' (21 sources, 83 headers) in 5.07 sec: 4,548 declarations; 21,655 references; 0 unresolved inclusions; 1 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2021-09-02 22:56:20.767
+!MESSAGE gnu.io.PortInUseException:  root PID =  13748 Program = minicom root PID =  13748 Program = ???
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException:  root PID =  13748 Program = minicom root PID =  13748 Program = ???
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException:  root PID =  13748 Program = minicom root PID =  13748 Program = ???
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2021-09-02 22:59:12.560
+!MESSAGE gnu.io.PortInUseException:  root PID =  13748 Program = minicom root PID =  13748 Program = ??? root PID =  13748 Program = ???
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException:  root PID =  13748 Program = minicom root PID =  13748 Program = ??? root PID =  13748 Program = ???
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException:  root PID =  13748 Program = minicom root PID =  13748 Program = ??? root PID =  13748 Program = ???
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2021-09-02 23:02:59.126
+!MESSAGE gnu.io.PortInUseException:  root PID =  13748 Program = minicom root PID =  13748 Program = ??? root PID =  13748 Program = ??? root PID =  13748 Program = ???
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException:  root PID =  13748 Program = minicom root PID =  13748 Program = ??? root PID =  13748 Program = ??? root PID =  13748 Program = ???
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException:  root PID =  13748 Program = minicom root PID =  13748 Program = ??? root PID =  13748 Program = ??? root PID =  13748 Program = ???
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-09-07 21:00:31.881
+!MESSAGE Indexed 'clock_cntrl' (21 sources, 26 headers) in 11 sec: 2,407 declarations; 16,045 references; 13 unresolved inclusions; 58 syntax errors; 2,518 unresolved names (12%)
+
+!ENTRY org.eclipse.jface 2 0 2021-09-07 21:45:13.750
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-09-07 21:45:13.750
+!MESSAGE A conflict occurred for ALT+ARROW_RIGHT:
+Binding(ALT+ARROW_RIGHT,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.hover.forwardMacroExpansion,Forward,
+		Steps forward in macro expansions,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@400b899,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.macroExpansionHoverScope,,,system)
+Binding(ALT+ARROW_RIGHT,
+	ParameterizedCommand(Command(org.eclipse.ui.navigate.forwardHistory,Forward History,
+		Move forward in the editor navigation history,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2e6818b0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-09-07 21:45:13.750
+!MESSAGE A conflict occurred for F3:
+Binding(F3,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.opendecl,Open Declaration,
+		Opens an editor on the selected element's declaration(s),
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2d64b6af,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(F3,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.opendecl,Open Declaration,
+		Opens an editor on the selected element's declaration(s),
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2d64b6af,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.macroExpansionHoverScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-09-07 21:45:13.750
+!MESSAGE A conflict occurred for ALT+ARROW_LEFT:
+Binding(ALT+ARROW_LEFT,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.hover.backwardMacroExpansion,Back,
+		Steps backward in macro expansions,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3ba2528,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.macroExpansionHoverScope,,,system)
+Binding(ALT+ARROW_LEFT,
+	ParameterizedCommand(Command(org.eclipse.ui.navigate.backwardHistory,Backward History,
+		Move backward in the editor navigation history,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@14b8a100,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SESSION 2021-09-08 10:04:35.262 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_151
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_CA
+Framework arguments:  -pluginCustomization configuration/st_pref.ini -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -pluginCustomization configuration/st_pref.ini -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2021-09-08 10:04:47.350
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY fr.ac6.mcu.ide 1 1 2021-09-08 10:05:16.416
+!MESSAGE Started RMI Server, listening on port 21112
+
+!ENTRY org.eclipse.core.net 1 0 2021-09-08 10:05:16.549
+!MESSAGE System property http.proxyHost is not set but should be appgw.gnb.st.com.
+
+!ENTRY org.eclipse.core.net 1 0 2021-09-08 10:05:16.561
+!MESSAGE System property http.proxyPort is not set but should be 8080.
+
+!ENTRY org.eclipse.core.net 1 0 2021-09-08 10:05:16.667
+!MESSAGE System property http.proxyHost is not set but should be appgw.gnb.st.com.
+
+!ENTRY org.eclipse.core.net 1 0 2021-09-08 10:05:16.667
+!MESSAGE System property http.proxyPort is not set but should be 8080.
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 17 2021-09-08 10:05:17.590
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1. ; version: 2.0.4.v20170307-1435
+!STACK 0
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.json.Json.deserialize(Json.java:93)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:70)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:124)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+	... 9 more
+
+!ENTRY org.eclipse.launchbar.core 2 0 2021-09-08 10:18:50.419
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2021-09-08 10:18:50.445
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-09-08 10:56:05.009
+!MESSAGE Indexed 'uart2_ex_' (21 sources, 78 headers) in 4.45 sec: 4,444 declarations; 20,274 references; 4 unresolved inclusions; 59 syntax errors; 906 unresolved names (3.5%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-09-08 17:00:03.898
+!MESSAGE Indexed 'pll180' (21 sources, 78 headers) in 2.58 sec: 4,433 declarations; 20,438 references; 4 unresolved inclusions; 59 syntax errors; 894 unresolved names (3.5%)
